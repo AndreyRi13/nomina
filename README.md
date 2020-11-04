@@ -1,2 +1,1 @@
 # nomina
-Ejercicio Nomina 

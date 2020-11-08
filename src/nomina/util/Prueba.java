@@ -11,8 +11,8 @@ public class Prueba {
 	public static void main(String[] args) {
 		
 		/*Empleado empl = new Empleado();
-		empl.setCedula("1956365");
-		empl.setCodigo("12653");
+		empl.setCodigo("50060");
+		empl.setCedula("1956365");	
 		empl.setNombre("Andrey Antonio");
 		String dobDate="20/11/1999";  
 		SimpleDateFormat parseDate = new SimpleDateFormat("dd/MM/yyyy");
@@ -31,7 +31,7 @@ public class Prueba {
 		empDao.insert(empl);*/
 		
 		/*empleadoDao empDao = new empleadoDao();
-		Empleado empl = empDao.find("12653");
+		Empleado empl = empDao.find("50060");
 		
 		System.out.println(empl.getNombre());*/
 		

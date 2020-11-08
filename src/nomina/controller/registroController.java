@@ -73,8 +73,8 @@ public class registroController extends HttpServlet {
 			emp.setCodigo(codigo);
 			emp.setCedula(cedula);
 			emp.setNombre(nombre);
-			emp.setFechaingreso(fnac);  
-			emp.setFechanacimiento(fing);
+			emp.setFechanacimiento(fnac);  
+			emp.setFechaingreso(fing);
 			emp.setFecharetiro(fret);
 			empleadoDao empDao = new empleadoDao();
 			empDao.insert(emp);

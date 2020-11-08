@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>REGISTRO</title>
+<title>Registro</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,6 +15,7 @@
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <meta name="generator" content="Mobirise v5.2.0, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+ 
   <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
@@ -70,11 +71,12 @@
     <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(255, 255, 255);"></div>
 
 		<section class="container">
-			<div class=" row" style="margin-top: 35px; margin-bottom: 35px;">
-			
-				<h4 class="center-align">REGISTRA TU EMPLEADO</h4>
-				
+			<div class="row" style="margin-top: 35px; margin-bottom: 35px;">
+		
 				<article class="card-panel hoverable col s8 offset-s2">
+				
+				<h2 class="center-align">REGISTRA TU EMPLEADO</h2>
+				
 					<form style="padding: 10px;" parent="_blank" method="POST"
 						action="registroController" runat="server">
 
@@ -118,21 +120,28 @@
   <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-3.5-7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"/>
 </svg></i> <input name="fecharet" type="text" class="datepicker" placeholder="Fecha de retiro">
 						</div>
+						
 						<div class="btn-toolbar" role="toolbar">
-						  <div class="btn-group">
 						<p class="center-align">
-							<button class="btn btn-space"
-								type="submit">
+						  <div class="btn-group">
+						  
+						
+						
+							<a role="button" aria-pressed="true" href="index.html" class="btn btn-space" type="submit">
 								<i class="material-icons left"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-90deg-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4z"/>
-</svg></i>VOLVER</button>
- </div> 
-  <div class="btn-group">
+							</svg></i>VOLVER</a>
+ 								</div> 
+ 
+  						<div class="btn-group">
 							<button class="btn btn-space" type="submit">
 								REGISTRAR
 							</button>
+							
+							
 							 </div>
-						</p>
+							 </p>
+					 </div>
 
 					</form>
 
@@ -149,7 +158,7 @@
         <div class="row mbr-white">
             <div class="col-6 col-lg-3">
                 <div class="media-wrap col-md-8 col-12">
-                    <a href="https://mobiri.se/">
+                    <a href="index.html">
                         <img src="assets/images/mbr-337x244.jpg" alt="Nomina">
                     </a>
                 </div>

@@ -4,16 +4,13 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v5.2.0, https://mobirise.com -->
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v5.2.0, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
-  <meta name="description" content="">
-  
-  
-  <title>Home</title>
+  <title>Consulta</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -24,11 +21,10 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  
-  
-  
 </head>
+
 <body>
+
   <jsp:useBean id="empDao" class="nomina.model.empleadoDao"
 		scope="request"></jsp:useBean>
 		
@@ -56,47 +52,53 @@
         </div>
     </nav>
 </section>
+
+
 <section class="header2 cid-sfjx3WbLdk mbr-fullscreen mbr-parallax-background" id="header2-0">
 
     
 
     <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(255, 255, 255);"></div>
 
-    <div class="container">
-        <div class="row">
-        <div class="col-10 col-lg-9">
-<h4 class="center-align">CONSULTA SOBRE TU EMPLEADO</h4>
-
+		<div class="container">
+			<div class="row" style="margin-top: 35px; margin-bottom: 35px;">
+		
 				<article class="card-panel hoverable col s8 offset-s2">
-					<form style="padding: 10px;" method="GET" action="consultaController" runat="server">
+				 <h4 class="center-align">CONSULTA SOBRE TU EMPLEADO</h4>
+          
+            <form class="form-horizontal" style="padding: 10px;" method="GET" action="consultaController" runat="server">
+          
+       
+				
+					
 
+                        <div class="form-group">
 						<div class="input-field">
 						 
 						<label for="codigo">Código del empleado: </label> 
 								<input type="text" id="codigo" name="codigo" required placeholder="Codigo del empleado">
 						</div>
-
+</div>
+  <div class="form-group">
 						<p class="center-align">
 							<button class="btn btn-primary btn-Danger" type="submit">BUSCAR</button>
 						</p>
-
-					</form>
-
-				</article>
+						</div>
+						</form>
+            </article>
+            
 				</div>	
-			</div>	
-		</div>
 		
+</div>
 </section>
+
 <section class="footer4 cid-sfjxTPQeqh" once="footers" id="footer4-9">
 
-    
-    
     <div class="container">
         <div class="row mbr-white">
             <div class="col-6 col-lg-3">
                 <div class="media-wrap col-md-8 col-12">
-                    <a href="https://mobiri.se/">
+                    <a href="index.html">
                         <img src="assets/images/mbr-337x244.jpg" alt="Nomina">
                     </a>
                 </div>

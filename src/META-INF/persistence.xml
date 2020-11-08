@@ -17,9 +17,6 @@
             <property name="javax.persistence.jdbc.user" value="Andrey"/>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
             <property name="javax.persistence.jdbc.password" value="tool1234"/>
-            
-		</properties>
-		
-	</persistence-unit>
-	
+		</properties>		
+	</persistence-unit>	
 </persistence>

@@ -11,7 +11,7 @@
 <link rel="shortcut icon"
 	href="https://img.icons8.com/nolan/64/000000/web.png"
 	type="image/x-icon">
-<title>LISTADO</title>
+<title>Listado</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
@@ -33,7 +33,7 @@
 	<jsp:useBean id="cDao" class="nomina.model.conceptoDao"
 		scope="request"></jsp:useBean>
 
-	<section class="menu menu1 cid-sfjx65vb0k" once="menu" id="menu1-1">
+	<div class="menu menu1 cid-sfjx65vb0k" once="menu" id="menu1-1">
     
 
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
@@ -51,13 +51,11 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-4" href="consulta.jsp"><span class="mbri-search mbr-iconfont mbr-iconfont-btn"></span>Buscar Empleado</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="registro.jsp"><span class="mobi-mbri mobi-mbri-user mbr-iconfont mbr-iconfont-btn"></span>Registrar Empleado</a></li></ul>
-                
-                
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-4" href="consulta.jsp"><span class="mbri-search mbr-iconfont mbr-iconfont-btn"></span>Buscar Empleado</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="registro.jsp"><span class="mobi-mbri mobi-mbri-user mbr-iconfont mbr-iconfont-btn"></span>Registrar Empleado</a></li></ul>       
             </div>
         </div>
     </nav>
-</section>
+</div>
 
 	<section class="header2 cid-sfjx3WbLdk mbr-fullscreen mbr-parallax-background" id="header2-0">
 
@@ -96,7 +94,7 @@
         <div class="row mbr-white">
             <div class="col-6 col-lg-3">
                 <div class="media-wrap col-md-8 col-12">
-                    <a href="https://mobiri.se/">
+                    <a href="index.html">
                         <img src="assets/images/mbr-337x244.jpg" alt="Nomina">
                     </a>
                 </div>

@@ -16,7 +16,8 @@ public class Concepto implements Serializable {
 
 	@Id
 	private String codconcepto;
-
+	
+    @Column(name="descripcion")
 	private String descripcion;
 
 	//bi-directional many-to-one association to Tercero

@@ -11,8 +11,8 @@ import javax.persistence.metamodel.StaticMetamodel;
 public class Empleado_ {
 	public static volatile SingularAttribute<Empleado, String> codigo;
 	public static volatile SingularAttribute<Empleado, String> cedula;
-	public static volatile SingularAttribute<Empleado, Date> fechaingreso;
 	public static volatile SingularAttribute<Empleado, Date> fechanacimiento;
+	public static volatile SingularAttribute<Empleado, Date> fechaingreso;
 	public static volatile SingularAttribute<Empleado, Date> fecharetiro;
 	public static volatile SingularAttribute<Empleado, String> nombre;
 	public static volatile ListAttribute<Empleado, Liquidacion> liquidacions;

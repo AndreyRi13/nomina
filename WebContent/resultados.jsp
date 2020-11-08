@@ -25,7 +25,7 @@
   <meta name="description" content="">
   
   
-  <title>Home</title>
+  <title>Resultado</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -109,7 +109,7 @@
         <div class="row mbr-white">
             <div class="col-6 col-lg-3">
                 <div class="media-wrap col-md-8 col-12">
-                    <a href="https://mobiri.se/">
+                    <a href="index.html">
                         <img src="assets/images/mbr-337x244.jpg" alt="Nomina">
                     </a>
                 </div>
